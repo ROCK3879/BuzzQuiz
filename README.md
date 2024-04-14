@@ -47,14 +47,13 @@ The buttons will allow the user to the next question.
 
 ## Design
 ### Colors
-* First color: #---------
-* Second color: #-------
-* Third color: #---------
+* Body background color: #ffff00;
+* Box background color: #ffffff; 
+* Button color: #0051ff9c;
 * Shadow color: #808080
 
 ### Typography
-* Times New Roman
-* Sans Serif
+* 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 ## Testing
 * When testing the HTML and CSS validator, one error was found on line --------------------------------------------
