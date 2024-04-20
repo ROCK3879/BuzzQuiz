@@ -20,18 +20,27 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 
 # Features
 ## Present Features
+
+### Start button
+* The start button is located right at the beginning when entering the quiz and enables access to the quiz.
+![Start button](/media/start_button.png)
+
 ### Questions box
 * Displayed on page, the question box includes questions, answers and buttons.
 The buttons will allow the user to the next question.
-![Navigation bar](./assets/----------)
+![Question and answer box](/media/question_answer_box.png)
 
-### Questions
-* The entire quiz consists of questions about insects that can be found on the surface of the entire globe.
-![Home page](./assets/-------------)
+### Correct and wrong output
+* The display in the next picture is the output reaction of the quiz to a correct or incorrect answer. The correct answer is displayed in green, while the incorrect answer is displayed in red.
+![Correct and wrong output](/media/correct_wrong_answers.png)
 
-### Answers
-* The buttons include four answers, of which only one is correct, and the correct and incorrect answers are indicated by the colors red for an incorrect answer and green for a correct answer.
-![Footer](./assets/media/Footer.png)
+### Next button
+* The button to switch to the next question is located right below the question box and allows the user to move through the questions after the given answer.
+![Next button](/media/next_q_button.png)
+
+### Restart button
+* After the user reaches the end of the quiz, a restart button appears, which enables the user to repeat learning the answers to the questions.
+![Restart button](/media/restart_button.png)
 
 ## Future Features
 * Future features may be created and expanded with more random questions and answers.
