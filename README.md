@@ -2,9 +2,7 @@
 
 Hello readers !
 
-* In this document, you will be able to see the structure of the BuzzQuiz and the content of the technologies used.
-BuzzQuiz is a website that provides quiz for people who want to test their knowledge about Buzz things in the world.
-The quiz focus will be on insects lovers who are looking for new knowledge in world of insects. 
+* In this document, you will be able to see the structure of a series of questions and suggested answers for quick memorization. The application technology used helps users to speed up memory and expand knowledge. The essence of these random questions, which can be expanded and supplemented in the future, will force you to be faster and faster in giving correct answers. BuzzQuiz is a website that offers a quiz for people who want to expand their general knowledge. The focus of this quiz will be on insect lovers who are looking for new knowledge.
 
 * Informative content and navigation will be easy for users.
 Responsiveness to all devices provides an excellent browsing experience regardless of which device you use.
@@ -14,13 +12,11 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 
 # User stories
 
-* The quiz was designed based on the concept of unusual as well as standard isects, which can rarely be found on the European continet.
-* When you enter the quiz, you can see a simple -------------------------------
-* At the bottom of the quiz box you can see ----------------------
-
-* By clicking on the buttons start, ----------------------
-* This quiz offers a 10 questions----------------------
-* After selected one of the offered answers ---------------------
+*The quiz is designed according to the concept of constantly randomly repeating questions about insects inhabited around the Earth.
+* When you enter the quiz, you can see a simple approach with the start button to start the game, after which a question box will appear and four answers will be offered.
+* When you select an answer, the screen and the answer buttons will change color and thus show you whether you have chosen the correct answer. Red shades of color indicate an incorrect answer and green shades indicate a correct answer.
+* Below the question and answer box you can see a button to switch to a next question.
+*This quiz is designed so that there are many questions that are randomly changed and there are many of them. In this test version, we will be able to display only 10 questions with the possibility of expansion in the future.
 
 # Features
 ## Present Features
@@ -30,15 +26,15 @@ The buttons will allow the user to the next question.
 ![Navigation bar](./assets/----------)
 
 ### Questions
-* Cijeli kviz se sastoji od pitanja o insektima koje mozemo pronaci na tlu Europe
+* The entire quiz consists of questions about insects that can be found on the surface of the entire globe.
 ![Home page](./assets/-------------)
 
 ### Answers
-* The buttons includes cetiri odgovora od kojeg je samo jedan tacan.
+* The buttons include four answers, of which only one is correct, and the correct and incorrect answers are indicated by the colors red for an incorrect answer and green for a correct answer.
 ![Footer](./assets/media/Footer.png)
 
 ## Future Features
-* Future features can be done in and expanded with images.
+* Future features may be created and expanded with more random questions and answers.
 
 ## Technology used
 * HTML - creating of web site with Git Hub and Git Pod.
@@ -47,20 +43,28 @@ The buttons will allow the user to the next question.
 
 ## Design
 ### Colors
-* Body background color: #ffff00;
-* Box background color: #ffffff; 
+* Border color: hsl(var(--hue), 100%, 30%);
+* Background color: hsl(var(--hue), 100%, 50%);
+* Question box color: #ffffff; 
 * Button color: #0051ff9c;
-* Shadow color: #808080
+* Button correct color:--hue-correct: 145;
+* Button wrong color:--hue-wrong: 0;
+* Button neutral color: --hue-neutral: 195;
+* Shadow color: #808080;
+* Hover color: #000000;
 
 ### Typography
 * 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 ## Testing
-* When testing the HTML and CSS validator, one error was found on line --------------------------------------------
+* HTML - When testing the HTML validator, one error was found on HTML structure on line 10 <script> was wrongly linked, I made the correction by linking the script document correctly. Testing was done through the official W3C validator.
+* CSS - No errors were found when passing through the official Jigsaw validator.
+* JavaScript - No errors were found when passing through the official Jshint validator.
 
 ### Validator Testing
 * HTML [W3C validator](https://validator.w3.org/)
 * CSS [(Jigsaw) validator ](https://jigsaw.w3.org/css-validator/)
+* JavaScript [(Jshint) validator ](https://jshint.com/)
 
 ### Layout and Design Testing
 * Ensured content was well structured and aligned.
