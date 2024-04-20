@@ -60,6 +60,11 @@ The buttons will allow the user to the next question.
 * HTML - When testing the HTML validator, one error was found on HTML structure on line 10 <script> was wrongly linked, I made the correction by linking the script document correctly. Testing was done through the official W3C validator.
 * CSS - No errors were found when passing through the official Jigsaw validator.
 * JavaScript - No errors were found when passing through the official Jshint validator.
+   - The following metrics were returned:
+     -There are 11 functions in this file.
+     -Function with the largest signature take 2 arguments, while the median is 1.
+     -Largest function has 8 statements in it, while the median is 2.
+     -The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
 ### Validator Testing
 * HTML [W3C validator](https://validator.w3.org/)
@@ -67,38 +72,34 @@ The buttons will allow the user to the next question.
 * JavaScript [(Jshint) validator ](https://jshint.com/)
 
 ### Layout and Design Testing
-* Ensured content was well structured and aligned.
-* Reviewed the layout and design of the website.
-* Tested website responsiveness by resizing the browser window or using developer tools to simulate different device sizes.
+* The content is well structured and aligned.
+* Website layout and design reviewed.
+* Tested quiz responsiveness by resizing the browser window or using developer tools to simulate different device sizes.
 
 ### Functionality
-* Checked that all interactive elements are functional.
-* Tested all user inputs and ensured they deliver expected results.
-* Checked for error messages or unexpected behavior.
-
-### Reporting issues
-* The layout of the quiz page recommends viewing the website in bright mode.
+* Checked if all interactive elements are functional.
+* All user inputs tested and ensured to produce expected outputs.
 
 ### Bugs: 
-* The same error appeared --------------------
+* The error was found on HTML structure on line 10 <script> was wrongly linked.
 #### Fixed: 
-* I solved the error by -------------------
+* I solved the error correction by linking the script document correctly.
 #### Unfixed: 
 * None
 
 ## Deployment
 * Live link: 
-[BuzzQuiz](https://rock3879.github.io/BuzzQuiz/)
+[BuzzQuiz](https://github.com/ROCK3879/BuzzQuiz.git/)
 
 ## Fork a GitHub Repository
 * To fork a repo, log in to your account and then go to the repository. In the top-right corner of the window, there is a "Fork" button with a number to the right of it, which represents the number of times the repository has been forked. Go ahead and click that button.
 * A message will briefly appear letting you know that the forking process has started. It only takes a few seconds to fork the repo.
 * You're now safe to make any changes to the code in your forked repository that you like. To do so, just clone the forked repository to your local machine and get busy!
 
-## Credits
-     
+## Credits  
 ### Content
-* Social media icons in the footer were from [Font Awesome](https://fontawesome.com/)
 * The Favicon was taken from [Favicon.io](https://favicon.io/)
 
-Enjoy browsing the website!
+### Media
+* Photos used from this open source website
+Enjoy!
