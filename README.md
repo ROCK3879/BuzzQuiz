@@ -88,13 +88,13 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 
    - The following metrics were returned:
 
-     --There are 11 functions in this file.
+     -There are 11 functions in this file.
 
-     --Function with the largest signature take 2 arguments, while the median is 1.
+     -Function with the largest signature take 2 arguments, while the median is 1.
 
-     --Largest function has 8 statements in it, while the median is 2.
+     -Largest function has 8 statements in it, while the median is 2.
 
-     --The most complex function has a cyclomatic complexity value of 2 while the median is 1.
+     -The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
 ### Validator Testing
 
