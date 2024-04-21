@@ -96,7 +96,7 @@ const questions = [
         ]
     },
     {
-        question: 'Mosquitoes belong to the type of insects we call ?', 
+        question: 'Mosquitoes belong to the type of insects we call?', 
         answers: [
             { text: 'Right wingers', correct: false},
             { text: 'Biplane', correct: true},
@@ -123,7 +123,7 @@ const questions = [
         ]
     },
     {
-        question: 'Which of the insects are considered the fastest runners', 
+        question: 'Which of the insects are considered the fastest runners?', 
         answers: [
             { text: 'Ant', correct: false},
             { text: 'Cockchafer', correct: false},
@@ -132,7 +132,7 @@ const questions = [
         ]
     },
     {
-        question: 'Who are the oldest living chewing herbivores??', 
+        question: 'Who are the oldest living chewing herbivores?', 
         answers: [
             { text: 'Mantis', correct: false},
             { text: 'Cricket', correct: false},
