@@ -78,66 +78,66 @@ function clearStatusClass (element) {
 
 const questions = [
     {
-        question: 'What xxxxxxxxxxxxxxx?', 
+        question: 'The body of most insects consists of?', 
         answers: [
-            { text: 'xxxxx', correct: false},
-            { text: 'xxxxx', correct: false},
-            { text: 'xxxx', correct: false},
-            { text: 'xxxx', correct: true}
+            { text: '8 parts', correct: false},
+            { text: '4 parts', correct: false},
+            { text: '6 parts', correct: false},
+            { text: '3 parts', correct: true}
         ]
     },
     {
-        question: 'What xxxxxxxxxxxxxxx?', 
+        question: 'The complete transformation of insects is called?', 
         answers: [
-            { text: 'xx', correct: true},
-            { text: 'xx', correct: false},
-            { text: 'xx', correct: false},
-            { text: 'xx', correct: false}
+            { text: 'Holometabolic transformation', correct: true},
+            { text: 'Retarded transformation', correct: false},
+            { text: 'Pheromone transformation', correct: false},
+            { text: 'Hemimetabolic transformation', correct: false}
         ]
     },
     {
-        question: 'What xxxxxxxxxxxxxxx?', 
+        question: 'Mosquitoes belong to the type of insects we call ?', 
         answers: [
-            { text: 'xxx', correct: false},
-            { text: 'xxx', correct: true},
-            { text: 'xxx', correct: false},
-            { text: 'xxx', correct: false}
+            { text: 'Right wingers', correct: false},
+            { text: 'Biplane', correct: true},
+            { text: 'Hymenoptera', correct: false},
+            { text: 'Hard-wings', correct: false}
         ]
     },
     {
-        question: 'What xxxxxxxxxxxxxxx?', 
+        question: 'Meganeura monyi is?', 
         answers: [
-            { text: 'xxcc', correct: false},
-            { text: 'xxcc', correct: false},
-            { text: 'xxcc', correct: true},
-            { text: 'xxcc', correct: false}
+            { text: 'Latin word in medicine', correct: false},
+            { text: 'Insect of the new age', correct: false},
+            { text: 'A prehistoric insect', correct: true},
+            { text: 'It does not belong to any kind of insect', correct: false}
         ]
     },
     {
-        question: 'What xxxxxxxxxxxxxxx?', 
+        question: 'The production of light in fireflies serves for?', 
         answers: [
-            { text: 'ccvv', correct: false},
-            { text: 'bbvv', correct: true},
-            { text: 'ggvv', correct: false},
-            { text: 'ffdd', correct: false}
+            { text: 'To catch them more easily', correct: false},
+            { text: 'To attract a partner', correct: true},
+            { text: 'For defense against predators', correct: false},
+            { text: 'To avoid a partner', correct: false}
         ]
     },
     {
-        question: 'What xxxxxxxxxxxxxxx?', 
+        question: 'Which of the insects are considered the fastest runners', 
         answers: [
-            { text: 'ssss', correct: false},
-            { text: 'dddd', correct: false},
-            { text: 'ffff', correct: false},
-            { text: 'eeee', correct: true}
+            { text: 'Ant', correct: false},
+            { text: 'Cockchafer', correct: false},
+            { text: 'Stinkbug', correct: false},
+            { text: 'Cockroach', correct: true}
         ]
     },
     {
-        question: 'What xxxxxxxxxxxxxxx?', 
+        question: 'Who are the oldest living chewing herbivores??', 
         answers: [
-            { text: 'wwss', correct: false},
-            { text: 'gdfr', correct: false},
-            { text: 'pdfpr', correct: true},
-            { text: 'pdse', correct: false}
+            { text: 'Mantis', correct: false},
+            { text: 'Cricket', correct: false},
+            { text: 'Grasshoppers', correct: true},
+            { text: 'Termite', correct: false}
         ]
     },
     {
