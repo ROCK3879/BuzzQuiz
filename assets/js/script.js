@@ -12,6 +12,7 @@ nextButton.addEventListener('click', () => {
     setNextQuestion();
 });
 
+// Start quiz function
 function startGame() {
     startButton.classList.add('hide');
     shuffledQuestions = questions.sort(() => Math.random() - .5);
@@ -19,12 +20,12 @@ function startGame() {
     questionContainerElement.classList.remove('hide');
     setNextQuestion();
 }
-
+// Next question function
 function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
-
+// The function is designed to display a question
 function showQuestion(question) {
     questionElement.innerText = question.question;
     question.answers.forEach(answer => {
@@ -46,7 +47,7 @@ function resetState() {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild);
     }
 }
-
+// Select answer function
 function selectAnswer(e) {
     const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
@@ -76,6 +77,7 @@ function clearStatusClass (element) {
     element.classList.remove('wrong');
 }
 
+// Questions and answers
 const questions = [
     {
         question: 'The body of most insects consists of?', 

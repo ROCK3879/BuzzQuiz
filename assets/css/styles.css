@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* Colors */
 :root {
     --hue-neutral: 195;
     --hue-wrong: 0;
