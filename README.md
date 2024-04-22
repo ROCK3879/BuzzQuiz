@@ -130,7 +130,7 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 
 #### Lighthouse report
 
-![Lighthouse report](/media/)
+![Lighthouse report](/media/lighthouse_report.png)
 
 ## Deployment
 
