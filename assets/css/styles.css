@@ -2,11 +2,12 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 /* Colors */
 :root {
-    --hue-neutral: 195;
-    --hue-wrong: 0;
-    --hue-correct: 145;
+    --hue-neutral: 400;
+    --hue-wrong: 30;
+    --hue-correct: 75;
 }
 
 body {
@@ -40,6 +41,7 @@ body.wrong {
 
 /* White question background box */
 .hide {
+    display: none;
     background-color: #ffffff;
     width: 800px;
     max-width: 80%;
@@ -47,8 +49,8 @@ body.wrong {
     padding: 50px;
     box-shadow: 0 0 10px 2px;
     margin: 10px;
-    
 }
+
 /* Organization of all buttons */
 .btn-grid {
     display: grid;
@@ -71,6 +73,7 @@ body.wrong {
 .btn:hover {
     border-color: #000000;
 }
+
 /* Correct or wrong button color*/
 .btn.correct {
     --hue: var(--hue-correct);
@@ -94,14 +97,26 @@ body.wrong {
     align-items: center;
 }
 
-.hide {
-    display: none;
+/* Restart button styling */
+.restart-btn {
+    margin-top: 20px; 
+  
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Green color on hover */
+.restart-btn:hover {
+    background-color: #45a049;
 }
 
 /* Screens adjustment*/
-
 @media only screen and (max-width: 768px) {
- 
     .container {
         width: 400px;
         max-width: 80%;
@@ -127,5 +142,4 @@ body.wrong {
         border-radius: 20px;
         padding: 10px 15px;
     }
-
 }
