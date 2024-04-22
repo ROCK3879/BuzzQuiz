@@ -15,6 +15,7 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 * When you enter the quiz, you can see a simple approach with the start button to start the game, after which a question box will appear and four answers will be offered.
 * When you select an answer, the screen and the answer buttons will change color and thus show you whether you have chosen the correct answer. Red shades of color indicate an incorrect answer and green shades indicate a correct answer.
 * Below the question and answer box you can see a button to switch to a next question.
+* When you reach the end of the quiz, a container appears with the result and a button to restart the game.
 * This quiz is designed so that there are many questions that are randomly changed and there are many of them. In this test version, we will be able to display only 10 questions with the possibility of expansion in the future.
 
 # Features
@@ -46,11 +47,11 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 
 ![Next button](/media/next_q_button.png)
 
-### Restart button
+### Restart button with result information
 
-* After the user reaches the end of the quiz, a restart button appears, which enables the user to repeat learning the answers to the questions.
+* Once the user reaches the end of the quiz, the quiz result appears and a restart button below, which allows the user to repeat learning the answers to the questions until they remember the correct answers.
 
-![Restart button](/media/restart_button.png)
+![Restart button and score](/media/restart_button.png)
 
 ## Future Features
 
@@ -66,13 +67,15 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 
 ### Colors
 
-* Border color: hsl(var(--hue), 100%, 30%);
-* Background color: hsl(var(--hue), 100%, 50%);
+* Button border color: hsl(var(--hue), 100%, 30%);
+* Button background color: hsl(var(--hue), 100%, 50%);
+* Body background color: hsl(var(--hue), 100%, 20%);
 * Question box color: #ffffff; 
 * Button color: #0051ff9c;
-* Button correct color:--hue-correct: 145;
-* Button wrong color:--hue-wrong: 0;
-* Button neutral color: --hue-neutral: 195;
+* Button correct color:--hue-correct: 75;
+* Button wrong color:--hue-wrong: 30;
+* Button neutral color: --hue-neutral: 400;
+* Restart button color: #4CAF50;
 * Shadow color: #808080;
 * Hover color: #000000;
 
@@ -88,13 +91,13 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 
    - The following metrics were returned:
 
-     -There are 11 functions in this file.
+     -There are 13 functions in this file
 
-     -Function with the largest signature take 2 arguments, while the median is 1.
+     -Function with the largest signature take 2 arguments, while the median is 0.
 
-     -Largest function has 8 statements in it, while the median is 2.
+     -Largest function has 12 statements in it, while the median is 2.
 
-     -The most complex function has a cyclomatic complexity value of 2 while the median is 1.
+     -The most complex function has a cyclomatic complexity value of 3 while the median is 1.
 
 ### Validator Testing
 
@@ -124,6 +127,10 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 #### Unfixed: 
 
 * None
+
+#### Lighthouse report
+
+![Lighthouse report](/media/)
 
 ## Deployment
 
