@@ -113,8 +113,19 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 
 ### Functionality
 
+#### Manual testing and game steps
 * Checked if all interactive elements are functional.
 * All user inputs tested and ensured to produce expected outputs.
+* Game steps:
+
+   - When you enter the Buzz Quiz website, the first thing you see is the Start button.
+   - When you press the Start button, the game starts.
+   - When the game starts, you see a screen with a question and four answers offered.
+   - Choose one answer and the game will show you whether you have chosen correctly or incorrectly by changing the color of the correct answer to green and the Next button will appear.
+   - Click on the Next button for the game to move on and game will ask a new question.
+   - In the background, the game records your score, which will be shown at the end of the game.
+   - When you reach the end of the game, your result will appear on the screen, showing how many correct answers you had and how many results were expressed in percentages, and the Restart button.
+   - Press the Restart button to repeat the game.
 
 ### Bugs:
 
@@ -133,9 +144,16 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 ![Lighthouse report](/media/lighthouse_report.png)
 
 ## Deployment
-
+* Deployment steps:
+   - When entering the Git Hub, select the BuzzQuiz repository and click the CODE button, copy the HTTPS Link and transfer the copied link to the Submission form.
+   - By clicking on the Settings button, select the Pages option.
+   - After entering the Pages option in the Build and Deployment section, select the main/root option and click on the Save button.
+   - After GitHub publishes the page, copy the live link, which I also enter in the Submission form.
+   - When we have properly filled out the Submission form with all the required data, submit the completed project to the Submit button
 * Live link: 
 [BuzzQuiz](https://rock3879.github.io/BuzzQuiz/)
+* GitHub repo link:
+[GitHub repo](https://github.com/ROCK3879/BuzzQuiz.git)
 
 ## Fork a GitHub Repository
 
