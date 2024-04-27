@@ -1,4 +1,6 @@
-// Questions and answers
+/**
+ * Starts the game by hiding the start button, resetting the score, and displaying the first question.
+ */
 const questions = [
     {
         question: 'The body of most insects consists of?', 
@@ -92,7 +94,6 @@ const questions = [
     },
 ];
 
-// Remaining JavaScript code
 const startButton = document.getElementById('start-btn');
 const nextButton = document.getElementById('next-btn');
 const questionContainerElement = document.getElementById('question-container');
@@ -103,13 +104,17 @@ const resultsElement = document.getElementById('results');
 let shuffledQuestions, currentQuestionIndex;
 let score = 0;
 
-startButton.addEventListener('click', startGame);
+document.addEventListener("DOMContentLoaded", (event) => {
+  startButton.addEventListener('click', startGame);
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
     setNextQuestion();
 });
+});
 
-// Start quiz function and hide quiz container
+/**
+ * Starts the game click the start button.
+ */
 function startGame() {
     startButton.classList.add('hide');
     resultsContainer.classList.add('hide'); 
@@ -120,13 +125,18 @@ function startGame() {
     setNextQuestion();
 }
 
-// Next question function
+/**
+ * Sets the next question in the quiz.
+ */
 function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
-// The function is designed to display a question
+/**
+ * Displays the given question on the screen.
+ * The question object containing the question text and answers.
+ */
 function showQuestion(question) {
     questionElement.innerText = question.question;
     question.answers.forEach(answer => {
@@ -141,6 +151,9 @@ function showQuestion(question) {
     });
 }
 
+/**
+ * Resets the state of the quiz by clearing the answer buttons and hiding the next button.
+ */
 function resetState() {
     clearStatusClass(document.body);
     nextButton.classList.add('hide');
@@ -149,7 +162,9 @@ function resetState() {
     }
 }
 
-// Select answer function and increment score if the answer is correct
+/**
+ * Handles the selection of an answer by the player.
+ */
 function selectAnswer(e) {
     const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
@@ -167,24 +182,26 @@ function selectAnswer(e) {
     }
 }
 
-// Hide question container and show results container
+/**
+ * Displays the final results of the quiz, showing the player's score and an option to restart the game.
+ */
 function displayResults() {
     questionContainerElement.classList.add('hide');
     resultsContainer.classList.remove('hide');
     
-    // Calculate score
+
     const percentageScore = (score / questions.length) * 100;
     
-    // Display the score
+
     resultsElement.innerText = `You scored ${score} out of ${questions.length} (${percentageScore.toFixed(2)}%)`;
     
-    // Remove existing restart
+
     const existingRestartButton = document.querySelector('.restart-btn');
     if (existingRestartButton) {
         existingRestartButton.remove();
     }
 
-    // Create restart button and restart game
+
     const restartButton = document.createElement('button');
     restartButton.innerText = 'Restart Game';
     restartButton.classList.add('restart-btn', 'btn');
@@ -192,11 +209,13 @@ function displayResults() {
         resultsContainer.classList.add('hide');
         startGame();
     });
-    
-    // Append restart button
+
     resultsContainer.appendChild(restartButton);
 }
 
+/**
+ * Sets the CSS class on the given element based on whether the answer was correct or not.
+ */
 function setStatusClass(element, correct) {
     clearStatusClass(element);
     if (correct) {
@@ -206,6 +225,9 @@ function setStatusClass(element, correct) {
     }
 }
 
+/**
+ * Clears the status class from the given element.
+ */
 function clearStatusClass (element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');
