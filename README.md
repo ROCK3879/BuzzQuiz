@@ -130,14 +130,14 @@ Hello readers !
      the Restart button.
    - Press the Restart button to repeat the game.
 
-- Game step 1
-![Game step 1](/media/mob_respon_start_img.png)<br>
-- Game step 2
-![Game step 2](/media/mob_respon_quest_img.png)<br>
-- Game step 3
-![Game step 3](/media/mob_respon_answ_img.png)<br>
-- Game step 4
-![Game step 4](/media/mob_respon_end_img.png)<br>
+- Game step 1<br>
+![Game step 1](/media/mob_respon_start_img.png)
+- Game step 2<br>
+![Game step 2](/media/mob_respon_quest_img.png)
+- Game step 3<br>
+![Game step 3](/media/mob_respon_answ_img.png)
+- Game step 4<br>
+![Game step 4](/media/mob_respon_end_img.png)
 
 ### Bugs:
 
