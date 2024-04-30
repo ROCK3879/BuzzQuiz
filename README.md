@@ -181,6 +181,6 @@ Hello readers !
 
 ### Media
 
-* Photos used from this open source website
+* Images used from this open source website.
 
 Enjoy!
