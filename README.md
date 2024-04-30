@@ -5,7 +5,7 @@ Hello readers !
 * In this document, you will be able to see the structure of a series of questions and suggested answers for quick memorization. The application technology used helps users to speed up memory and expand knowledge. The essence of these random questions, which can be expanded and supplemented in the future, will force you to be faster and faster in giving correct answers. BuzzQuiz is a website that offers a quiz for people who want to expand their insects general knowledge. The focus of this quiz will be on insect lovers who are looking for new informations.
 
 * Informative content and navigation will be easy for users.
-Responsiveness to all devices provides an excellent browsing experience regardless of which device you use.
+  As a visiting user, I would like to view the score and restart quiz button when quiz end Responsiveness to all devices provides an excellent browsing experience regardless of which device you use.
 
 ![Screen responsiveness](/media/am_i_responsive.png)
 
@@ -13,9 +13,10 @@ Responsiveness to all devices provides an excellent browsing experience regardle
 
 * The quiz is designed according to the concept of constantly randomly repeating questions about insects inhabited around the Earth.
 * When you enter the quiz, you can see a simple approach with the start button to start the game, after which a question box will appear and four answers will be offered.
-* When you select an answer, the screen and the answer buttons will change color and thus show you whether you have chosen the correct answer. Red shades of color indicate an incorrect answer and green shades indicate a correct answer.
+* When you select an answer, the screen and the answer buttons will change color and thus show you whether you have chosen the correct answer. Red shades of color indicate an 
+  incorrect answer and green shades indicate a correct answer.
 * Below the question and answer box you can see a button to switch to a next question.
-* When you reach the end of the quiz, a container appears with the result and a button to restart the game.
+* As a visiting user, I would like to view the score and restart quiz button when quiz end.
 * This quiz is designed so that there are many questions that are randomly changed and there are many of them. In this test version, we will be able to display only 10 questions with the possibility of expansion in the future.
 
 # Features
@@ -121,12 +122,14 @@ Responsiveness to all devices provides an excellent browsing experience regardle
    - When you enter the Buzz Quiz website, the first thing you see is the Start button.
    - When you press the Start button, the game starts.
    - When the game starts, you see a screen with a question and four answers offered.
-   - Choose one answer and the game will show you whether you have chosen correctly or incorrectly by changing the color of the correct answer to green and the Next button will appear.
+   - Choose one answer and the game will show you whether you have chosen correctly or incorrectly by changing the color of the correct answer to green and the Next button will 
+     appear.
    - Click on the Next button for the game to move on and game will ask a new question.
    - In the background, the game records your score, which will be shown at the end of the game.
-   - When you reach the end of the game, your result will appear on the screen, showing how many correct answers you had and how many results were expressed in percentages, and the Restart button.
+   - When you reach the end of the game, your result will appear on the screen, showing how many correct answers you had and how many results were expressed in percentages, and 
+     the Restart button.
    - Press the Restart button to repeat the game.
-
+![Game step 1](/media/mob_respon_start_img.png), ![Game step 2](/media/mob_respon_quest_img.png),![Game step 3](/media/mob_respon_answ_img.png),![Game step 4](/media/mob_respon_end_img.png)
 ### Bugs:
 
 * The error was found on HTML structure on line 10 <script> was wrongly linked.

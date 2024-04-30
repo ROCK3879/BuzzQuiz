@@ -106,7 +106,7 @@ let score = 0;
 
 document.addEventListener("DOMContentLoaded", (event) => {
   startButton.addEventListener('click', startGame);
-nextButton.addEventListener('click', () => {
+  nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
     setNextQuestion();
 });
