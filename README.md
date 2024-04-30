@@ -129,7 +129,12 @@ Hello readers !
    - When you reach the end of the game, your result will appear on the screen, showing how many correct answers you had and how many results were expressed in percentages, and 
      the Restart button.
    - Press the Restart button to repeat the game.
-![Game step 1](/media/mob_respon_start_img.png), ![Game step 2](/media/mob_respon_quest_img.png),![Game step 3](/media/mob_respon_answ_img.png),![Game step 4](/media/mob_respon_end_img.png)
+
+![Game step 1](/media/mob_respon_start_img.png)
+![Game step 2](/media/mob_respon_quest_img.png)
+![Game step 3](/media/mob_respon_answ_img.png)
+![Game step 4](/media/mob_respon_end_img.png)
+
 ### Bugs:
 
 * The error was found on HTML structure on line 10 <script> was wrongly linked.
